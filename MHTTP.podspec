@@ -9,8 +9,10 @@ s.version = "1.0.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.authors = { "Marian" => 'mariansamy17@gmail.com' }
 s.homepage = "https://github.com/marian19/MHTTP"
-s.source = { :git => "[Your RWPickFlavor Git URL Goes Here]", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/marian19/MHTTP.git", :tag => "#{s.version}"}
 s.dependency 'AFNetworking', '~> 3.0'
-s.source_files = "MHTTP/**/*"
+s.source_files = 'MHTTP/MHTTP.h'
+s.resources = "MHTTP/**/*"
+s.public_header_files = 'MHTTP/MHTTP.h'
 
 end

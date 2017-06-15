@@ -17,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char MHTTPVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <MHTTP/PublicHeader.h>
 
 
-#import <MHTTP/TasksManager.h">
+//#import <MHTTP/TasksManager.h">
