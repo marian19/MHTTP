@@ -5,14 +5,20 @@ s.ios.deployment_target = '9.0'
 s.name = "MHTTP"
 s.summary = "My first framework."
 s.requires_arc = true
-s.version = "1.0.4"
+s.version = "1.0.5"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.authors = { "Marian" => 'mariansamy17@gmail.com' }
 s.homepage = "https://github.com/marian19/MHTTP"
 s.source = { :git => "https://github.com/marian19/MHTTP.git", :tag => "#{s.version}"}
 s.dependency 'AFNetworking', '~> 3.0'
 s.source_files = 'MHTTP/**/*.{h,m}'
-s.resources = "MHTTP/**/*"
+#s.resources = "MHTTP/**/*"
 s.public_header_files = 'MHTTP/MHTTP.h'
 
+end
+
+s.subspec 'TasksManager' do |ss|
+
+ss.source_files = 'MHTTP/TasksManager.{h,m}'
+ss.public_header_files = 'AFNetworking/TasksManager.h'
 end
