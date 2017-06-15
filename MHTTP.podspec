@@ -11,7 +11,7 @@ s.authors = { "Marian" => 'mariansamy17@gmail.com' }
 s.homepage = "https://github.com/marian19/MHTTP"
 s.source = { :git => "https://github.com/marian19/MHTTP.git", :tag => "#{s.version}"}
 s.dependency 'AFNetworking', '~> 3.0'
-s.source_files = 'MHTTP/**/*.{h,m'
+s.source_files = 'MHTTP/**/*.{h,m}'
 s.resources = "MHTTP/**/*"
 s.public_header_files = 'MHTTP/MHTTP.h'
 
