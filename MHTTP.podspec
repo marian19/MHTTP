@@ -15,10 +15,6 @@ s.source_files = 'MHTTP/**/*.{h,m}'
 #s.resources = "MHTTP/**/*"
 s.public_header_files = 'MHTTP/MHTTP.h'
 
+
 end
 
-s.subspec 'TasksManager' do |ss|
-
-ss.source_files = 'MHTTP/TasksManager.{h,m}'
-ss.public_header_files = 'AFNetworking/TasksManager.h'
-end
