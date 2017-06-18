@@ -15,19 +15,21 @@
 @implementation TasksManager
 NSOperationQueue *taskQueue;
 
-+ (TasksManager *)sharedHTTPClient
++ (TasksManager *)sharedTasksManager
 {
-    static TasksManager *_sharedHTTPClient = nil;
+    static TasksManager *_sharedTasksManager = nil;
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _sharedHTTPClient = [[TasksManager alloc] init];
+        _sharedTasksManager = [[TasksManager alloc] init];
         taskQueue = [[NSOperationQueue alloc] init];
         
     });
     
-    return _sharedHTTPClient;
+    return _sharedTasksManager;
 }
+
+
 
 -(void) executingTasksInSerialOrder:(BOOL)isFIFO{
     if (isFIFO) {

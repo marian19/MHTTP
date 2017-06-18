@@ -11,7 +11,7 @@
 
 @interface TasksManager : NSObject
 
-+ (TasksManager *)sharedHTTPClient;
++ (TasksManager *)sharedTasksManager;
 
 -(void) executingTasksInSerialOrder:(BOOL)isFIFO;
 

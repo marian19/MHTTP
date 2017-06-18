@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3FC255E97DED0D4915C0EB1A /* libPods-MHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3289FD7374677F6504A89B2D /* libPods-MHTTP.a */; };
-		5617E97D1EF1D18400811A5A /* UploadTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5617E97B1EF1D18400811A5A /* UploadTasks.h */; };
+		5617E97D1EF1D18400811A5A /* UploadTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5617E97B1EF1D18400811A5A /* UploadTasks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5617E97E1EF1D18400811A5A /* UploadTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5617E97C1EF1D18400811A5A /* UploadTasks.m */; };
-		5617E9811EF1D19800811A5A /* DownloadTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5617E97F1EF1D19800811A5A /* DownloadTasks.h */; };
+		5617E9811EF1D19800811A5A /* DownloadTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5617E97F1EF1D19800811A5A /* DownloadTasks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5617E9821EF1D19800811A5A /* DownloadTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5617E9801EF1D19800811A5A /* DownloadTasks.m */; };
-		5617E9851EF1D1A600811A5A /* DataTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5617E9831EF1D1A600811A5A /* DataTasks.h */; };
+		5617E9851EF1D1A600811A5A /* DataTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5617E9831EF1D1A600811A5A /* DataTasks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5617E9861EF1D1A600811A5A /* DataTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5617E9841EF1D1A600811A5A /* DataTasks.m */; };
-		5617E98D1EF1DF6500811A5A /* Task.h in Headers */ = {isa = PBXBuildFile; fileRef = 5617E98B1EF1DF6500811A5A /* Task.h */; };
+		5617E98D1EF1DF6500811A5A /* Task.h in Headers */ = {isa = PBXBuildFile; fileRef = 5617E98B1EF1DF6500811A5A /* Task.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5617E98E1EF1DF6500811A5A /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 5617E98C1EF1DF6500811A5A /* Task.m */; };
 		567153AA1EF093CC006FDA81 /* MHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567153A01EF093CC006FDA81 /* MHTTP.framework */; };
 		567153AF1EF093CC006FDA81 /* MHTTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 567153AE1EF093CC006FDA81 /* MHTTPTests.m */; };
 		567153B11EF093CC006FDA81 /* MHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 567153A31EF093CC006FDA81 /* MHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56C1A4101EF1C4EB002B0F99 /* TasksManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C1A40E1EF1C4EB002B0F99 /* TasksManager.h */; };
+		56C1A4101EF1C4EB002B0F99 /* TasksManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C1A40E1EF1C4EB002B0F99 /* TasksManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56C1A4111EF1C4EB002B0F99 /* TasksManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A40F1EF1C4EB002B0F99 /* TasksManager.m */; };
 		826934DBBA07C7435F28A9E9 /* libPods-MHTTPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7C019CE8DACA869B8D5347 /* libPods-MHTTPTests.a */; };
 /* End PBXBuildFile section */
